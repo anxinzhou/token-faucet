@@ -1,0 +1,412 @@
+/*!
+ * Start Bootstrap - Agency v5.0.2 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+p {
+    line-height: 1.75
+}
+
+a {
+    color: #fed136
+}
+
+a:hover {
+    color: #fec503
+}
+
+.text-primary {
+    color: #fed136!important
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+section {
+    padding: 100px 0
+}
+
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+section h3.section-subheading {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+}
+
+@media (min-width:768px) {
+    section {
+        padding: 150px 0
+    }
+}
+
+.btn {
+    font-weight: 700
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px
+}
+
+.btn-primary {
+    background-color: #fed136;
+    border-color: #fed136
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #fec810!important;
+    border-color: #fec810!important;
+    color: #fff
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important;
+    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important
+}
+
+::-moz-selection {
+    background: #fed136;
+    text-shadow: none
+}
+
+::selection {
+    background: #fed136;
+    text-shadow: none
+}
+
+img::-moz-selection {
+    background: 0 0
+}
+
+img::selection {
+    background: 0 0
+}
+
+img::-moz-selection {
+    background: 0 0
+}
+
+
+
+
+@media(max-width:767px) {
+    .faucetHead{
+        text-align: center;
+        height: 200px;
+        position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          background-color: #E6E6FA;
+    }   
+    .faucetHead .header {
+        margin-top: 100px;
+        font-size: 25px;
+    }
+    .signup {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .signupHead{
+        padding-top: 0px;
+        margin-top: 40px;
+        font-size: 40px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+@media (min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px
+    }
+    .faucetHead{
+        text-align: center;
+        height: 250px;
+        position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          background-color: #E6E6FA;
+    }   
+    .faucetHead .header {
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    .signup {
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        background-color: #f8f9fa;
+        height: 600px;
+    }
+    .signupHead{
+        padding-top: 40px;
+        margin-top: 120px;
+        font-size: 40px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+
+
+@media (min-width:768px) {
+    
+}
+
+@media (min-width:992px) {
+    
+}
+
+@media (min-width:1200px) {
+    
+
+}
+
+
+.sl {
+
+
+}
+
+.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.consume {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.inputPassword{
+    margin-top: 50px;
+}
+
+.createAccount {
+    margin-top: 100px;
+}
+
+.faucetBody{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+.faucetInput{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    font-size: inherit;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    padding: 0 15px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+}
+.faucetLabel{
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+}
+.faucetButton{
+    font-size: 18px !important;
+    margin-top:30px !important;
+    width:200px;
+    height:50px;
+    background-color:   #1E90FF;
+}
+.faucetLink {
+    margin-top:50px;
+    height:50px;
+    background-color:  #1E90FF;
+}
+.doubleHead {
+    font-size: 1.5rem;
+}
+.doubleButton{
+    margin-top:50px;
+}
+.inDouble {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.signupForm{
+    margin-top: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signupLabel{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+}
+
+.signupImg{
+    margin-top:40px;
+    width: 80px;
+    height:80px;
+}
+.signoutButton {
+    background-color: #fed136;
+    border-color: #fed136;
+}
+
+.signupInput {
+    margin-top: 20px;
+    width:300px;
+    margin-left: 0px;
+    margin-right:auto;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    line-height: 30px;
+}
+
+.signupButton {
+    margin-top: 25px !important;
+    width: 150px !important;
+    margin-left: 70px !important;
+}
+
+.alpha-button{
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.alpha-button-primary {
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+}
+
+
+
+
+
+.alpha-form{
+    margin-left: auto;
+    margin-right: auto;
+    width:  300px;
+    height: 100px;
+}
+.alpha-form .form-input {
+    padding-left: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    width: 80px;
+    margin-top:35px;
+    position: relative;
+    margin-left: -5px;
+        border-radius: 4px;
+    border: 1px solid #dcdfe6;
+}
+
+.alpha-form .form-label {
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    width: 100px;
+    margin-top: 30px;
+
+}
+
+.alpha-form .form-button{
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    float:right;
+    position:relative;
+    margin-top: 32px;
+}
+
+
+.formcenter {
+    padding-top: 100px;
+}
+
+.formpos {
+    margin-left: -50px;
+}
+
+
+.slot__item {
+  margin-top: 20px;
+  height: 160px;
+  width: 100px;
+}
+
+.slot__wrap {
+    float:right;
+}
+
+.slot__icon {
+    margin-top: 0px;
+    width: 70px;
+    height: 70px;
+}
+
+
+.slot-machine {
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
