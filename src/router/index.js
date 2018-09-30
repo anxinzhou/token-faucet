@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 
 const Faucet = () => {
-    return import ('@/components/faucet')
+	return import ('@/components/faucet')
 }
 
 
@@ -11,13 +11,14 @@ const Faucet = () => {
 Vue.use(Router)
 
 const router = new Router({
-    routes: [
-    	{
+	routes: [{
 		path: '/',
 		name: 'Faucet',
 		component: Faucet,
-    	}
-    ]
+		meta: {
+			title: 'secdev-demo'
+		}
+	}]
 });
 
 
